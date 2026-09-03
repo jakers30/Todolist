@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <!-- Fix #12: entry point with Login / Exit -->
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.todolist.ui.welcome.WelcomeFragment"
+        android:label="Welcome" />
+
+    <!-- Auth -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.todolist.ui.auth.LoginFragment"
+        android:label="Sign in" />
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.todolist.ui.auth.RegisterFragment"
+        android:label="Create account" />
+
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.todolist.ui.auth.ForgotPasswordFragment"
+        android:label="Reset password" />
+
+    <!-- Admin -->
+    <fragment
+        android:id="@+id/adminTasksFragment"
+        android:name="com.example.todolist.ui.admin.AdminTasksFragment"
+        android:label="Admin • Tasks" />
+
+    <fragment
+        android:id="@+id/adminTaskFormFragment"
+        android:name="com.example.todolist.ui.admin.AdminTaskFormFragment"
+        android:label="Task details">
+        <argument
+            android:name="taskId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adminBatchesFragment"
+        android:name="com.example.todolist.ui.admin.AdminBatchesFragment"
+        android:label="Batches" />
+
+    <fragment
+        android:id="@+id/adminProgressFragment"
+        android:name="com.example.todolist.ui.admin.AdminProgressFragment"
+        android:label="Admin • Progress" />
+
+    <!-- User -->
+    <fragment
+        android:id="@+id/userBoardFragment"
+        android:name="com.example.todolist.ui.user.UserBoardFragment"
+        android:label="My Tasks" />
+
+    <fragment
+        android:id="@+id/userPersonalFragment"
+        android:name="com.example.todolist.ui.user.UserPersonalFragment"
+        android:label="Personal Tasks" />
+
+    <fragment
+        android:id="@+id/userProgressFragment"
+        android:name="com.example.todolist.ui.user.UserProgressFragment"
+        android:label="My Progress" />
+
+</navigation>

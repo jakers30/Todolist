@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/adminTasksFragment"
+        android:icon="@drawable/ic_list"
+        android:title="Tasks" />
+
+    <item
+        android:id="@+id/adminBatchesFragment"
+        android:icon="@drawable/ic_group"
+        android:title="Batches" />
+
+    <item
+        android:id="@+id/adminProgressFragment"
+        android:icon="@drawable/ic_bar_chart"
+        android:title="Progress" />
+
+</menu>

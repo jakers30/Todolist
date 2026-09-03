@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fix #8: the three previously scattered top-bar actions now live in the drawer -->
+    <item
+        android:id="@+id/nav_theme"
+        android:icon="@drawable/ic_dark_mode"
+        android:title="Dark mode" />
+
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Log out" />
+
+</menu>

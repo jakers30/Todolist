@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 60-30-10 color rule -->
+    <!-- 60% neutral backgrounds -->
+    <color name="background">#F4F6FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#E9EDF3</color>
+    <color name="outline">#C9D2DC</color>
+
+    <!-- 30% secondary -->
+    <color name="secondary">#4F6D7A</color>
+    <color name="secondary_container">#DCE7EC</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- 10% primary accent -->
+    <color name="primary">#2962FF</color>
+    <color name="primary_dark">#0039CB</color>
+    <color name="primary_container">#D9E4FF</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Status / priority semantic colors -->
+    <color name="status_accepted">#2962FF</color>
+    <color name="status_ongoing">#F57C00</color>
+    <color name="status_completed">#2E7D32</color>
+    <color name="priority_high">#E53935</color>
+    <color name="priority_medium">#F57C00</color>
+    <color name="priority_low">#43A047</color>
+    <color name="overdue">#E53935</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1B1F24</color>
+    <color name="text_secondary">#5C6470</color>
+    <color name="text_on_accent">#FFFFFF</color>
+
+    <!-- Overlay -->
+    <color name="scrim">#55000000</color>
+</resources>
