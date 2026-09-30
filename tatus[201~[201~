@@ -1,0 +1,39 @@
+[33mcommit d51390c28a2314bb2705445cee9854ff040be437[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Jake Olivares <jakeolivares03@gmail.com>
+Date:   Fri Sep 4 01:00:30 2026 +0800
+
+    pre-database
+
+[33mcommit 4fd7bf4304a4dbe32757ba62b7535b124733c5fb[m
+Merge: cbf41ee ab19492
+Author: Jake Olivares <jakeolivares03@gmail.com>
+Date:   Fri Sep 4 00:52:24 2026 +0800
+
+    Merge branch 'master' of https://github.com/jakers30/Todolist
+
+[33mcommit cbf41eecec1e4a656806598c046b75b1fbe9cf3d[m
+Author: Jake Olivares <jakeolivares03@gmail.com>
+Date:   Fri Sep 4 00:47:52 2026 +0800
+
+    postDatabase_synch
+
+[33mcommit ab1949290e05a62b70a456a477fe51b256d9bb5b[m
+Merge: 7102598 f2e8d96
+Author: jakers30 <jakeolivares03@gmail.com>
+Date:   Thu Sep 3 21:14:49 2026 +0800
+
+    Merge pull request #1 from jakers30/ui-implementation
+    
+    added a sample file
+
+[33mcommit f2e8d96d33c85f98385e31ad0519866a636728db[m[33m ([m[1;31morigin/ui-implementation[m[33m, [m[1;32mui-implementation[m[33m, [m[1;32moffline-first-implementation[m[33m)[m
+Author: Jake Olivares <jakeolivares03@gmail.com>
+Date:   Thu Sep 3 21:07:22 2026 +0800
+
+    added a sample file
+
+[33mcommit 7102598af04f66b341f5f444f449b9f85d4da5ce[m
+Author: Jake Olivares <jakeolivares03@gmail.com>
+Date:   Thu Sep 3 20:53:53 2026 +0800
+
+    simple To-do list
